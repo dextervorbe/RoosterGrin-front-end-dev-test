@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Titillium+Web:wght@300;400;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Titillium+Web:wght@300;400;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -15,53 +14,72 @@ body,
   height: 100%;
 }
 
-.container {
+.heroContainer {
   position: relative;
   height: 0;
   background-image: url(./images/hero.jpg);
-  border: solid green;
+ 
   background-size: contain;
   background-repeat: no-repeat;
   padding-bottom: 52%;
 }
 
 .textLogo {
-    padding-left: 12.5%;
-    font-size: 25px;
-    color: rgb(19, 18, 17);;
-    font-family: 'Monoton', cursive;
+  padding-left: 12.5%;
+  font-size: 25px;
+  color: rgb(19, 18, 17);
+  font-family: "Monoton", cursive;
 }
 
 .greetingBox {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 h2 {
-font-size: 60px;
-color: rgb(6, 1, 1);
-font-family: 'Monoton', cursive;
+  font-size: 60px;
+  color: rgb(6, 1, 1);
+  font-family: "Monoton", cursive;
 }
 
 span {
-    font-family: 'Bungee Shade', cursive;
-    color: rgb(225, 181, 5);
+  font-family: "Bungee Shade", cursive;
+  color: rgb(225, 181, 5);
 }
 
 button {
-    padding: 10px;
-    background-color: rgb(225, 181, 5);
-    border: none;
-    font-size: 20px;
-    border: solid 2px;
+  padding: 10px;
+  background-color: rgb(225, 181, 5);
+  border: none;
+  font-size: 20px;
+  border: solid 2px;
 }
 
-button:hover{
-    background-color: white;
+button:hover {
+  background-color: white;
 }
 
+.container {
+  width: 100%;
+  height: auto;
+  border: solid black;
+}
+
+.box {
+  position: relative;
+  height: 100%;
+  width: 50%;
+}
+
+.flex {
+  display: flex;
+}
+
+.aa {
+width: 50%;
+}

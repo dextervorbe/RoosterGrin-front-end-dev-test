@@ -1,10 +1,10 @@
 import "./app.css";
-import hero from "./images/hero.jpg";
+import image from "./images/img-1.jpg";
 
 function App() {
   return (
     <div className="App">
-      <div className="container">
+      <div className="heroContainer">
       
         <div>
           <h1 className="textLogo">RoosterGrin</h1>
@@ -19,9 +19,10 @@ function App() {
         </div>
       </div>
 
-      {/* <div className="container">
-        <p></p>
-      </div> */}
+      <div className="container flex">
+        <div className="box"></div>
+        <img src={image} className="aa"></img>
+      </div>
     </div>
   );
 }
