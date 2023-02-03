@@ -4,8 +4,8 @@ import hero from "./images/hero.jpg";
 function App() {
   return (
     <div className="App">
-      <div className="header container">
-        {/* <img src={hero}></img> */}
+      <div className="container">
+      
         <div>
           <h1 className="textLogo">RoosterGrin</h1>
         </div>
@@ -15,7 +15,7 @@ function App() {
             Welcome To <br></br>
             <span>Rooster Grin</span>
           </h2>
-          <button></button>
+          <button> BUTTON BUTTON</button>
         </div>
       </div>
 

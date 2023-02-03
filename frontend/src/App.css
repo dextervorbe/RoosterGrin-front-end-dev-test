@@ -25,10 +25,6 @@ body,
   padding-bottom: 52%;
 }
 
-/* header css */
-.header {
-}
-
 .textLogo {
     padding-left: 12.5%;
     font-size: 25px;
@@ -57,8 +53,15 @@ span {
     color: rgb(225, 181, 5);
 }
 
-@media screen and (min-width: 1430px) {
-  .header {
-    background-size: cover;
-  }
+button {
+    padding: 10px;
+    background-color: rgb(225, 181, 5);
+    border: none;
+    font-size: 20px;
+    border: solid 2px;
 }
+
+button:hover{
+    background-color: white;
+}
+
