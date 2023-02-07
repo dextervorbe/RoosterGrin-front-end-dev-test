@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/RoosterGrin-front-end-dev-test/static/css/main.b9926b1e.css",
+    "main.js": "/RoosterGrin-front-end-dev-test/static/js/main.d56814d6.js",
+    "static/media/hero.jpg": "/RoosterGrin-front-end-dev-test/static/media/hero.9a710d871f2c3c7db665.jpg",
+    "static/media/banner-2.jpg": "/RoosterGrin-front-end-dev-test/static/media/banner-2.94ddf3c2924534d8eb64.jpg",
+    "static/media/banner-1.jpg": "/RoosterGrin-front-end-dev-test/static/media/banner-1.4638a869b9ed930f0ccd.jpg",
+    "static/media/img-1.jpg": "/RoosterGrin-front-end-dev-test/static/media/img-1.7a73ec856ab331ef3a58.jpg",
+    "static/media/home-hygiene.svg": "/RoosterGrin-front-end-dev-test/static/media/home-hygiene.289cbb0a8b82f4fc2a34cfd491f6a9f4.svg",
+    "static/media/home-retention.svg": "/RoosterGrin-front-end-dev-test/static/media/home-retention.78e8e24ef2c1f2dfebf1d02ba512652f.svg",
+    "static/media/home-expertise.svg": "/RoosterGrin-front-end-dev-test/static/media/home-expertise.431e1bc5f60a7bc5504ffe576e0ffc78.svg",
+    "static/media/home-lab.svg": "/RoosterGrin-front-end-dev-test/static/media/home-lab.33fec398ac5cad0bdad2540870a20374.svg",
+    "static/media/facebook.svg": "/RoosterGrin-front-end-dev-test/static/media/facebook.873670bea26cb33377a1c9d4fb5242bb.svg",
+    "index.html": "/RoosterGrin-front-end-dev-test/index.html",
+    "static/media/instagram.svg": "/RoosterGrin-front-end-dev-test/static/media/instagram.3db237929f04d33b0d8113a8b5e95d3c.svg",
+    "main.b9926b1e.css.map": "/RoosterGrin-front-end-dev-test/static/css/main.b9926b1e.css.map",
+    "main.d56814d6.js.map": "/RoosterGrin-front-end-dev-test/static/js/main.d56814d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9926b1e.css",
+    "static/js/main.d56814d6.js"
+  ]
+}
