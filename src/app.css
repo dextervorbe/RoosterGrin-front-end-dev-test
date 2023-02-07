@@ -383,7 +383,7 @@ p {
    
 }
 
-@media screen and (max-width: 367px) {
+@media screen and (max-width: 393px) {
 p {
     font-size: .70rem;
 }
@@ -409,6 +409,33 @@ p {
     .icon-text {
         font-size: 9px;
     }
+}
+
+@media screen and (max-width: 339px) {
+  p {
+    font-size: 10px;
+  }
+
+  .author, .title {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+  .button {
+    font-size: 5px;
+  }
+}
+
+@media screen and (max-width: 315px) {
+.text-space{
+  margin-bottom: 5px;
+}
+}
+
+@media screen and (max-width: 285px) {
+  p {
+    font-size: 7.5px;
+  }
 }
 
 @media screen and (max-width: 380px) {
