@@ -55,4 +55,8 @@ One of the challenges that I faced while working on this project was adding the 
 
 
 ## Demo
-![](frontend\src\images\demo.gif)
+![](src\images\demo.gif)
+
+
+
+
