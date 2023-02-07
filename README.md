@@ -1,6 +1,8 @@
 # Front-End Development Test
 To run application type
-``npm run start` 
+```
+npm run start
+```
 
  ## Introduction
 This test is designed to assess your creativity, coding ability, and attention to detail in front-end web development. You are expected to know about running a local server, connecting markup to scripts and styles, and general front-end web development. 
