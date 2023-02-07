@@ -1,0 +1,437 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root,
+body,
+#root,
+.App {
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  font-size: 20px;
+}
+
+.heroContainer {
+  position: relative;
+  height: 0;
+  background-image: url(./images/hero.jpg);
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 52%;
+}
+
+.textLogo {
+  color: rgb(1, 1, 19);
+  position: absolute;
+  padding-left: 12.5%;
+  font-size: 25px;
+
+  font-family: "Monoton", cursive;
+}
+
+.greetingBox {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.greetingText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 60px;
+  color: rgb(6, 1, 1);
+  font-family: "Monoton", cursive;
+}
+
+#hero {
+  font-family: "Bungee Shade", cursive;
+  color: rgb(225, 181, 5);
+}
+
+.fade-in {
+  transition: opacity 1s ease;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.button {
+  padding: 10px;
+  background-color: rgb(242, 215, 108);
+  border: none;
+  font-size: 20px;
+  border-radius: 0.25rem;
+  transition: all 0.3s linear;
+  /* border: solid 2px; */
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(235, 195, 34);
+  color: white;
+}
+
+.bgimage-container {
+  width: 100%;
+  height: auto;
+  /* border: solid black; */
+}
+
+.box {
+  position: relative;
+  width: 50%;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.space {
+  padding: 5%;
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 4%;
+  color: rgb(92, 6, 118);
+}
+
+.link {
+  margin-top: 3%;
+  color: rgb(92, 6, 118);
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 15px;
+  width: 100px;
+}
+
+.banner1 {
+  position: relative;
+  padding-bottom: 41.6%;
+  background-image: url(./images/banner-1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.banner1-text {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block-container {
+  width: 100%;
+  height: 50%;
+  /* border: solid black; */
+}
+
+.grey {
+  background-color: rgb(221, 222, 223);
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.icon:hover {
+  cursor: pointer;
+  transform: scale(2);
+  transition-duration: 2s;
+}
+
+.icon-border {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border: solid purple;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon-margin1 {
+  margin-bottom: 30px;
+}
+
+.icon-margin2 {
+  margin-top: 30px;
+}
+
+.items-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-text {
+  text-align: center;
+  font-size: 20px;
+}
+
+.banner2 {
+  position: relative;
+  background-image: url(./images/banner-2.jpg);
+  padding-bottom: 41.6%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* .emptyBox {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+} */
+
+.text-space {
+  margin-bottom: 20px;
+}
+
+.banner2-text-container {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 50%;
+}
+
+.banner2-text {
+  height: 100%;
+  padding: 20%;
+}
+
+/* Review CSS */
+
+.review {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prev-btn,
+.next-btn {
+  color: rgb(92, 6, 118);
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  color: black;
+}
+
+.author {
+  margin-bottom: 30px;
+  color: purple;
+}
+
+.review-icon {
+  width: 300px;
+}
+
+.fa-star {
+  color: rgb(238, 132, 3);
+  font-size: 30px;
+}
+
+/* Footer CSS */
+.footer-container {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-text {
+}
+
+.contact-img {
+  width: 50px;
+  background-color: purple;
+  border-radius: 24%;
+  margin-right: 10px;
+}
+
+/* Media Queries  */
+
+@media screen and (max-width: 760px) {
+  /* .greetingText {
+    font-size: 25px;
+  } */
+}
+
+
+@media screen and (max-width: 900px) {
+.greetingText {
+    font-size: 30px;
+}
+
+.textLogo {
+    font-size: 15px;
+}
+}
+
+@media screen and (max-width: 825px) {
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .banner2-text {
+        padding: 10%;
+    }
+}
+
+@media screen and (max-width: 583px) {
+    .banner2-text{
+        padding: 0;
+    }
+    
+    .title {
+        font-size: 20px;
+    }
+
+    .button {
+        font-size: 10px;
+    }
+
+    .contact-img {
+        width: 30px;
+    }
+    
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 578px) {
+  .icon-text {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 503px) {
+    p{
+        font-size: .80rem;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    .greetingText {
+        font-size: 25px;
+    }
+    
+    .title {
+        font-size: 15px;
+    }
+
+    #hero {
+        font-size: 25px;
+    }
+   
+}
+
+@media screen and (max-width: 367px) {
+p {
+    font-size: .70rem;
+}
+
+.author {
+    font-size: 15px;
+}
+
+.link {
+    font-size: 10px;
+}
+}
+
+@media screen and (max-width: 351px) {
+    .icon {
+        width: 30px;
+    }
+    .icon-border {
+        width: 60px;
+        height: 60px;
+    }
+
+    .icon-text {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+  /* h2,
+  .textLogo {
+    font-size: 15px;
+  }
+
+  button {
+    font-size: 10px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .icon-text {
+    font-size: 10px;
+  } */
+}
+
+
