@@ -385,7 +385,7 @@ p {
 
 @media screen and (max-width: 393px) {
 p {
-    font-size: .70rem;
+    font-size: .60rem;
 }
 
 .author {
@@ -424,6 +424,16 @@ p {
   .button {
     font-size: 5px;
   }
+}
+
+@media screen and (max-width: 320px) {
+p {
+  font-size: 7.5px;
+}
+
+.fa-star {
+  font-size: 15px;
+}
 }
 
 @media screen and (max-width: 315px) {
