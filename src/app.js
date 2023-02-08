@@ -7,7 +7,7 @@ import icon3 from "./images/home-lab.svg";
 import icon4 from "./images/home-retention.svg";
 import icon6 from "./images/instagram.svg";
 import icon7 from "./images/facebook.svg";
-import Fader from './component/Fader'
+import Fader from "./component/Fader";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         <div className="greetingBox">
           <h2 className="greetingText">
             Welcome To <br></br>
-            <Fader/>
+            <Fader />
           </h2>
           <button className="button"> BUTTON BUTTON</button>
         </div>
@@ -139,8 +139,12 @@ function App() {
         <div className="contact">
           <h4 className="contact-text">Follow Us:</h4>
           <div>
-            <img className="contact-img" src={icon6}></img>
-            <img className="contact-img" src={icon7}></img>
+            <a href="https://www.instagram.com/">
+              <img className="contact-img" src={icon6}></img>
+            </a>
+            <a href="https://www.facebook.com/">
+              <img className="contact-img" src={icon7}></img>
+            </a>
           </div>
         </div>
       </div>

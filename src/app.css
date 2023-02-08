@@ -274,7 +274,7 @@ p {
 }
 
 .fa-star {
-  color: rgb(238, 132, 3);
+  color: rgb(235, 195, 34);
   font-size: 30px;
 }
 
@@ -301,6 +301,10 @@ p {
   background-color: purple;
   border-radius: 24%;
   margin-right: 10px;
+}
+
+.contact-img:hover {
+  background-color: rgb(235, 195, 34);
 }
 
 /* Media Queries  */
