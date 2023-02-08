@@ -1,5 +1,10 @@
 # Front-End Development Test
-To run application type
+To run application clone the repo then run the following commands in the terminal
+```
+npm i
+```
+Followed by
+
 ```
 npm run start
 ```
@@ -54,9 +59,11 @@ I decided to use these technologies so I can get a better understanding of react
 One of the challenges that I faced while working on this project was adding the carousel and animations for the icons and hero titles. However, I was able to overcome this challenge and improve my knowledge of react hooks in the process 
 
 
-## Demo
+## Demo & Deployed Link
 https://drive.google.com/file/d/1wcbBz-nVD2rTUEpKLxrSZvtoElBXy82Q/view?usp=sharing
 ![](src\images\demo.gif)
+
+https://roostergrin-front-end-dev-test.herokuapp.com/
 
 
 
