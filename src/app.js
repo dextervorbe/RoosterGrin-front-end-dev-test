@@ -39,7 +39,7 @@ function App() {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <a className="link" href="https://www.google.com/">
+            <a className="link" href="https://twitter.com/roostergrin?lang=en">
               > Lorem ipsum
             </a>
           </div>
@@ -63,7 +63,7 @@ function App() {
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
             </p>
-            <a className="link" href="https://www.google.com/">
+            <a className="link" href="https://twitter.com/roostergrin?lang=en">
               > Lorem Ipsum
             </a>
           </div>
