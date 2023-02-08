@@ -60,10 +60,10 @@ One of the challenges that I faced while working on this project was adding the 
 
 
 ## Demo & Deployed Link
-https://drive.google.com/file/d/1wcbBz-nVD2rTUEpKLxrSZvtoElBXy82Q/view?usp=sharing
+Google Drive Demo Link: https://drive.google.com/file/d/1wcbBz-nVD2rTUEpKLxrSZvtoElBXy82Q/view?usp=sharing
 ![](src\images\demo.gif)
 
-https://roostergrin-front-end-dev-test.herokuapp.com/
+Deployed Application: https://roostergrin-front-end-dev-test.herokuapp.com/
 
 
 
