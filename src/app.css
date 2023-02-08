@@ -368,7 +368,7 @@ p {
     }
 }
 
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 414px) {
     .greetingText {
         font-size: 25px;
     }
@@ -380,6 +380,20 @@ p {
     #hero {
         font-size: 25px;
     }
+
+    p {
+      font-size: 10px;
+    }
+
+    .author, .title{
+      font-size: 15px;
+    }
+
+    .button {
+      padding: 5px;
+    }
+
+
    
 }
 
@@ -395,6 +409,26 @@ p {
 .link {
     font-size: 10px;
 }
+}
+
+@media screen and (max-width: 360px) {
+  p {
+    font-size: .50rem;
+  }
+
+  .author, .title, .icon-text {
+    font-size: .70rem;
+    margin-bottom: 10px;
+  }
+
+  .icon-border {
+    width: 50px;
+    height: 50px;
+  }
+
+  .icon {
+    width: 30px;
+  }
 }
 
 @media screen and (max-width: 351px) {
