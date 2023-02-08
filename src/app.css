@@ -344,7 +344,7 @@ p {
     }
 }
 
-@media screen and (max-width: 731px) {
+@media screen and (max-width: 767px) {
   .block-container {
     height:100%;
   }
