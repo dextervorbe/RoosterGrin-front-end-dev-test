@@ -8,8 +8,9 @@ Followed by
 ```
 npm run start
 ```
+NOTE: You will need node and npm on your machine if you choose to use the supplied server, also for hosting you will need to set it up yourself.
 
- ## Introduction
+## Introduction
 This test is designed to assess your creativity, coding ability, and attention to detail in front-end web development. You are expected to know about running a local server, connecting markup to scripts and styles, and general front-end web development. 
 
 ## Instructions
